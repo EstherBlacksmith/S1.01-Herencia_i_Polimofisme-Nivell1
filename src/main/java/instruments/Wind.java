@@ -1,7 +1,9 @@
-public class Stringed extends Instruments {
-    public static String message ="It's playing a stringed instrument";
+package instruments;
 
-    public Stringed() {
+public class Wind extends Instruments {
+    public static String message ="It's playing a wind instrument";
+
+    public Wind() {
     }
 
     public void play() {

@@ -4,7 +4,7 @@ Exercice 1. Level 1
 Musical instruments. 
 
 ## Instalation
-Clone the repository in order to obtain the code and execute de Main file.
+Clone the repository in order to obtain the code and execute de instruments.Main file.
 
 ### Prerequisites
 You must have Java installed and an IDE software. We recommended IntellIJ.
@@ -13,7 +13,7 @@ You must have Java installed and an IDE software. We recommended IntellIJ.
 ##### Step by step.
 ```bash
 Open a new project by cloning the repositori.
-Go to the Main file and select de run optionin your IDE.
+Go to the instruments.Main file and select de run optionin your IDE.
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Go to the Main file and select de run optionin your IDE.
 Explain how to test the project and give some example.
 
 ```bash
-Go to the Main file and select de run optionin your IDE.
+Go to the instruments.Main file and select de run optionin your IDE.
 Look for the results in the console.
 ```
 

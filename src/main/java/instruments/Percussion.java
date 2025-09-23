@@ -2,7 +2,7 @@ package instruments;
 
 public class Percussion extends Instruments {
     static {
-        System.out.println("Initializing instruments.Percussion class");
+        System.out.println("Initializing Percussion class");
     }
     public static String message ="It's playing a percussion instrument";
 

@@ -8,7 +8,6 @@ public class Car {
     static{
         model = "Stylo";
     }
-
     public Car() {}
 
     public static void slowDown(){

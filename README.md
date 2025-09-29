@@ -1,15 +1,16 @@
-# S1.01-Herencia_i_Polimofisme-Nivell1
+# S1.01 Inheritance and Polymorphism
+## Levels 1 and 2
 
-### Level 1 Exercice 1. 
+### Level 1 Exercise 1.
 **Musical instruments.**
 
-###  Level 1 Exercice 2.
+###  Level 1 Exercise 2.
 **Vehicles.**
 
-###  Level 2 Exercice 1.
+###  Level 2 Exercise 1.
 **Phones.**
 
-## Instalation
+## Installation
 Clone the repository in order to obtain the code and execute de Main file.
 
 ### Prerequisites
@@ -30,7 +31,7 @@ You must have Java installed and an IDE software. We recommended IntellIJ.
 
 ## Technologies
 
-_Technologies used in the project._ 
+_Technologies used in the project._
 * Java - Language
 * IntelIJ -  IDE.
 * Maven - build automation software (optional at this point of the project).

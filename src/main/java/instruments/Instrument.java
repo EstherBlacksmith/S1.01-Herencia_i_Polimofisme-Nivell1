@@ -1,6 +1,6 @@
 package instruments;
 
-public abstract class Instruments {
+public abstract class Instrument {
     String name;
     Double price;
 

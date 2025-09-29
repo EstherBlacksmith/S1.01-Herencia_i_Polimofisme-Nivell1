@@ -1,6 +1,6 @@
 package instruments;
 
-public class Stringed extends Instruments {
+public class Stringed extends Instrument {
     public static String message ="It's playing a stringed instrument";
 
     public Stringed() {

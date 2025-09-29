@@ -1,6 +1,6 @@
 package instruments;
 
-public class Wind extends Instruments {
+public class Wind extends Instrument {
     public static String message ="It's playing a wind instrument";
 
     public Wind() {

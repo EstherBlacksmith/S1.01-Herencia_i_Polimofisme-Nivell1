@@ -1,4 +1,4 @@
-# S1.01-Herencia_i_Polimofisme-Nivell1
+# S1.01-Herencia_i_Polimofisme-Nivel 1
 
 ### Level 1 Exercice 1. 
 **Musical instruments.**

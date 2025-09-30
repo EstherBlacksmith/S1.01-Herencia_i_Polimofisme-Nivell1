@@ -4,9 +4,13 @@ public abstract class Instrument {
     String name;
     Double price;
 
+    public Instrument(String name, Double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+
     protected abstract String getName() ;
-    protected abstract void setName(String name) ;
     protected abstract Double getPrice() ;
-    protected abstract void setPrice(Double price);
-    protected abstract void play() ;
+    public abstract void play() ;
 }

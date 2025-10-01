@@ -1,24 +1,15 @@
 package instruments;
 
 public class Wind extends Instrument {
-    public static final String message ="It's playing a wind instrument";
+    public static final String MESSAGE ="It's playing a wind instrument";
 
-    public Wind(String name, Double price) {
+    public Wind(String name, Double price) throws Exception {
         super(name, price);
     }
 
     @Override
-    public String getName() {
-        return name;
-    }
-    @Override
-    public Double getPrice() {
-        return price;
-    }
-
-    @Override
     public void play() {
-        System.out.println(message);
+        System.out.println(MESSAGE);
     }
 
 }

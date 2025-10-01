@@ -1,23 +1,15 @@
 package instruments;
 
 public class Stringed extends Instrument {
-    public static final String message ="It's playing a stringed instrument";
+    public static final String MESSAGE ="It's playing a stringed instrument";
 
-    public Stringed(String name, Double price) {
+    public Stringed(String name, Double price) throws Exception {
         super(name, price);
     }
 
-    @Override
-    public String getName() {
-        return name;
-    }
-    @Override
-    public Double getPrice() {
-        return price;
-    }
 
     @Override
     public void play() {
-        System.out.println(message);
+        System.out.println(MESSAGE);
     }
 }

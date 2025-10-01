@@ -5,25 +5,15 @@ public class Percussion extends Instrument {
         System.out.println("Initializing Percussion class");
     }
 
-    public static final String message ="It's playing a percussion instrument";
+    public static final String MESSAGE ="It's playing a percussion instrument";
 
-    public Percussion(String name, Double price) {
+    public Percussion(String name, Double price) throws Exception {
         super(name, price);
     }
 
 
     @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public Double getPrice() {
-        return price;
-    }
-
-    @Override
     public void play() {
-        System.out.println(message);
+        System.out.println(MESSAGE);
     }
 }

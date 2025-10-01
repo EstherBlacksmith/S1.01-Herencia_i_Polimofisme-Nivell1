@@ -1,9 +1,9 @@
 package instruments;
 
 public class Management {
-    protected static void init() {
+    protected static void init() throws Exception {
 
-        Stringed guitar  = new Stringed("Feder", 150.0);
+        Stringed guitar  = new Stringed("Feder", 100.10);
 
         guitar.play();
 

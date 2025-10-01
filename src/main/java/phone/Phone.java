@@ -1,35 +1,43 @@
 package phone;
 
 public class Phone {
-    private String brand;
-    private String model;
+    private final String brand;
+    private final String model;
 
-    public Phone(String brand, String model) throws Exception {
+    public Phone(String brand, String model) {
         if ( brand == null ||brand.isEmpty() ){
-            throw new Exception("Brand can not be empty or null");
+            throw new RuntimeException("Brand can not be empty or null");
         }
         if (model == null || model.isEmpty() ){
-            throw new Exception("Model can not be empty or null");
+            throw new RuntimeException("Model can not be empty or null");
         }
 
         this.brand = brand;
         this.model = model;
     }
 
+    protected String getBrand() {
+        return brand;
+    }
 
-    void calling(String phoneNumber) throws Exception {
+    protected String getModel() {
+        return model;
+    }
+
+    void calling(String phoneNumber)  {
         if (phoneNumber == null || phoneNumber.isEmpty() ){
-            throw new Exception("Phone number can not be empty or null");
+            throw new RuntimeException("Phone number can not be empty or null");
         }
 
         if (phoneNumber.length() < 9){
-            throw new Exception("Phone number is too short");
+            throw new RuntimeException("Phone number is too short");
         }
 
         if (!phoneNumber.matches("\\d+")){
-            throw new Exception("Phone number hasn't a valid format");
+            throw new RuntimeException("Phone number hasn't a valid format");
         }
 
         System.out.println("Calling the number " + phoneNumber);
     }
+
 }

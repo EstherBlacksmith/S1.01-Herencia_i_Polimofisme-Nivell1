@@ -7,10 +7,9 @@ public class Percussion extends Instrument {
 
     public static final String MESSAGE ="It's playing a percussion instrument";
 
-    public Percussion(String name, Double price) throws Exception {
+    public Percussion(String name, Double price) {
         super(name, price);
     }
-
 
     @Override
     public void play() {

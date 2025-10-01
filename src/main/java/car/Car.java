@@ -5,9 +5,9 @@ public class Car {
     public static String model;
     public final int power = 200;
 
-    public Car(String model) throws Exception {
+    public Car(String model) {
         if (model == null || model.isEmpty() ){
-            throw new Exception("Model can not be empty or null");
+            throw new RuntimeException("Model can not be empty or null");
         }
         Car.model = model;
     }

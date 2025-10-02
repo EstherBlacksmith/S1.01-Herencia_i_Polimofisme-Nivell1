@@ -3,15 +3,7 @@ package instruments;
 public abstract class Instrument {
     private final String name;
     private final Double price;
-
-    public String getName() {
-        return name;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
+    
     public Instrument(String name, Double price) {
         if (name == null || name.isEmpty()) {
             throw new RuntimeException("Name can not be null or empty");
@@ -23,6 +15,14 @@ public abstract class Instrument {
 
         this.name = name;
         this.price = price;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public Double getPrice() {
+        return price;
     }
 
     public abstract void play();
